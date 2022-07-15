@@ -7,7 +7,14 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1f3757;
+  background: rgba(31, 55, 87, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(31, 55, 87, 1) 0%,
+    rgba(19, 21, 55, 1) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
   color: #ffffff;
 }
 
