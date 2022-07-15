@@ -4,7 +4,7 @@ import Choice from "./Choice";
 const Choices = () => {
   return (
     <div>
-      <div className="flex justify-center my-24">
+      <div className="flex justify-center mt-24 mb-16">
         <img src="/static/bg-triangle.svg" alt="Triangle background" />
         <div className="relative right-56 top-36">
           <Choice type="rock" />
